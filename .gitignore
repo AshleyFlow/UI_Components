@@ -1,0 +1,7 @@
+# Project place file
+/Packages
+/selene.toml
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock

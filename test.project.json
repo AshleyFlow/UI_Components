@@ -1,0 +1,21 @@
+{
+  "name": "UI_Components",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Modules": {
+        "$path": "Packages",
+        "uicomponents": {
+          "$path": "src/Components"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "test/client"
+        }
+      }
+    }
+  }
+}
