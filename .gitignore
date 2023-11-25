@@ -4,6 +4,9 @@
 /uicomponents.rbxm
 /Build.cmd
 
+# W.I.P
+/src/Components/Dropdown
+
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock

@@ -15,6 +15,7 @@ local defaultColor1 = Color3.new(0, 0.75, 1)
 local defaultTweenInfo = TweenInfo.new(0.35)
 
 type Props = {
+	AnchorPoint: Vector2?,
 	Position: UDim2?,
 	Size: UDim2?,
 	Tree: {},
@@ -141,6 +142,7 @@ return function(props: Props)
 
 	return New("Frame")({
 		[Ref] = main,
+		AnchorPoint = props.AnchorPoint or Vector2.new(),
 		Position = props.Position or UDim2.new(),
 		Size = props.Size or UDim2.fromScale(1, 0.1),
 		BackgroundTransparency = 1,

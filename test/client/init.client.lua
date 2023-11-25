@@ -16,6 +16,9 @@ New("ScreenGui")({
 			Tree = myTree,
 			Index = index,
 		}),
+		require(ReplicatedStorage.Modules.uicomponents.Checkbox)({
+			Tick = Value(false),
+		}),
 	},
 })
 
