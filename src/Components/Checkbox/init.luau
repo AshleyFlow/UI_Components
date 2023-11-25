@@ -20,6 +20,7 @@ type Props = {
 	Position: UDim2?,
 	Size: UDim2?,
 	Parent: Instance?,
+	Tick: StateObject<boolean>,
 }
 
 return function(props)

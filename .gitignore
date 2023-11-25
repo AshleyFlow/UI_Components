@@ -4,6 +4,14 @@
 /uicomponents.rbxm
 /Build.cmd
 
+# Moonwave
+/node_modules
+/build
+/lib
+/package-lock.json
+/package.json
+/.vscode
+
 # W.I.P
 /src/Components/Dropdown
 
