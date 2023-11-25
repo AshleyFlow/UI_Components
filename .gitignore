@@ -13,7 +13,7 @@
 /.vscode
 
 # W.I.P
-/src/Components/Dropdown
+/src/Components/*Dropdown
 
 # Roblox Studio lock files
 /*.rbxlx.lock
