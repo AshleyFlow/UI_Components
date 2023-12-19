@@ -55,6 +55,7 @@ return function(props)
 					return UDim.new(0, cornerRadiusSpring:get())
 				end),
 			}),
+			--[[
 			New("UIStroke")({
 				Color = Computed(function()
 					return color0:Lerp(Color3.new(), 0.1):Lerp(color1, colorifySpring:get())
@@ -67,6 +68,7 @@ return function(props)
 					0.35
 				),
 			}),
+			]]
 			New("ImageLabel")({
 				BackgroundTransparency = 1,
 				Image = "rbxassetid://14189590169",
